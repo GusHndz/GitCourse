@@ -1,0 +1,118 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf600
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fmodern\fcharset0 Courier-Bold;\f2\fmodern\fcharset0 Courier;
+}
+{\colortbl;\red255\green255\blue255;\red177\green193\blue220;\red15\green23\blue46;\red11\green17\blue38;
+}
+{\*\expandedcolortbl;;\cssrgb\c74510\c80392\c89020;\cssrgb\c7059\c12157\c23922;\cssrgb\c4706\c8627\c20000;
+}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sl480\sa160\partightenfactor0
+
+\f0\fs32 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 El comando\'a0
+\f1\b \cb4 git show
+\f0\b0 \cb3 \'a0nos muestra los cambios que han existido sobre un archivo y es muy \'fatil para detectar cu\'e1ndo se produjeron ciertos cambios, qu\'e9 se rompi\'f3 y c\'f3mo lo podemos solucionar. Pero podemos ser m\'e1s detallados.\
+Si queremos ver la diferencia entre una versi\'f3n y otra, no necesariamente todos los cambios desde la creaci\'f3n del archivo, podemos usar el comando\'a0
+\f1\b \cb4 git diff commitA commitB
+\f0\b0 \cb3 .\
+Recuerda que puedes obtener el ID de tus commits con el comando\'a0
+\f1\b \cb4 git log
+\f0\b0 \cb3 .\
+\pard\pardeftab720\sl420\partightenfactor0
+
+\b\fs36 \cf2 Comandos para analizar cambios en GIT\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl360\partightenfactor0
+\ls1\ilvl0
+\fs32 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 git init
+\b0 : inicializar el repositorio\cb1 \
+\ls1\ilvl0
+\b \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 git add nombre_de_archivo.extensi\'f3n
+\b0 : agregar el archivo al repositorio\cb1 \
+\ls1\ilvl0
+\b \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 git commit -m \'93Mensaje\'94
+\b0 : Agregamos los cambios para el repositorio\cb1 \
+\ls1\ilvl0
+\b \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 git add
+\b0 : Agregar los cambios de la carpeta en la que nos encontramos agregar todo\cb1 \
+\ls1\ilvl0
+\b \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 git status
+\b0 : visualizar cambios\cb1 \
+\ls1\ilvl0
+\b \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 git log nombre_de_archivos.extensi\'f3n
+\b0 : hist\'f3rico de cambios con detalles\cb1 \
+\ls1\ilvl0
+\b \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 git push
+\b0 : env\'eda a otro repositorio remoto lo que estamos haciendo\cb1 \
+\ls1\ilvl0
+\b \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 git pull
+\b0 : traer repositorio remoto\cb1 \
+\ls1\ilvl0
+\b \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 ls
+\b0 : listado de carpetas en donde me encuentro. Es decir, como emplear dir en windows.\cb1 \
+\ls1\ilvl0
+\b \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 pwd
+\b0 : ubicaci\'f3n actual\cb1 \
+\ls1\ilvl0
+\b \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 mkdir
+\b0 : make directory nueva carpeta\cb1 \
+\ls1\ilvl0
+\b \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 touch archivo.extensi\'f3n
+\b0 : crear archivo vac\'edo\cb1 \
+\ls1\ilvl0
+\b \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 cat archivo.extensi\'f3n
+\b0 : muestra el contenido del archivo\cb1 \
+\ls1\ilvl0
+\b \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 history
+\b0 : historial de comandos utilizados durante esa sesi\'f3n\cb1 \
+\ls1\ilvl0
+\b \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 rm archivo.extensi\'f3n
+\b0 : Eliminaci\'f3n de archivo\cb1 \
+\ls1\ilvl0
+\b \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 comando --help
+\b0 : ayuda sobre el comando\cb1 \
+\ls1\ilvl0
+\b \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 git checkout
+\b0 : traer cambios realizados\cb1 \
+\ls1\ilvl0
+\b \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 git rm --cached archivo.extensi\'f3n
+\b0 : se utiliza para devolver el archivo que se tiene en ram. Cuando escribimos\'a0
+\f2 \cb4 git add
+\f0 \cb3 , lo devuelve a estado natural mientras est\'e1 en\'a0
+\i staging
+\i0 .\cb1 \
+\ls1\ilvl0
+\b \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 git config --list
+\b0 : muestra la lista de configuraci\'f3n de git\cb1 \
+\ls1\ilvl0
+\b \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 git config --list --show-origin
+\b0 : rutas de acceso a la configuraci\'f3n de git\cb1 \
+\ls1\ilvl0
+\b \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 git log archivo.extensi\'f3n
+\b0 : muestra la historia del archivo\cb1 \
+\pard\pardeftab720\sl480\sa160\partightenfactor0
+\cf2 \cb3 Aporte creado por: Stefania Ortega\
+}
